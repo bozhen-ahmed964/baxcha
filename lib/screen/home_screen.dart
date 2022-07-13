@@ -1,6 +1,7 @@
 import 'package:baxcha/utils/colors.dart';
 import 'package:baxcha/widget/first_element_home.dart';
 import 'package:baxcha/widget/second_element_home.dart';
+import 'package:baxcha/widget/third_element_home.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -33,7 +34,11 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         //second element
         SecondElementHome(),
+         SizedBox(
+          height: 25,
+        ),
         //third element
+        ThirdElementHome(),
       ],
     );
   }
