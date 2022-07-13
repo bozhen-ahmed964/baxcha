@@ -1,4 +1,5 @@
 import 'package:baxcha/utils/colors.dart';
+import 'package:baxcha/widget/first_element_home.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -13,37 +14,10 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        Column(
-          children: [
-            Container(
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: NetworkImage(
-                    'https://www.ugaoo.com/knowledge-center/wp-content/uploads/2018/01/shutterstock_329291891-850x525.jpg',
-                  ),
-                  fit: BoxFit.cover,
-                ),
-              ),
-              height: 320,
-              width: 400,
-              child: Positioned(
-                bottom: 40,
-                child: Stack(
-                  children: [
-                    Container(
-                      width: 150,
-                      height: 55,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(15),
-                      ),
-                    )
-                  ],
-                ),
-              ),
-            ),
-          ],
-        ),
+        //first element 
+        FirstElementHome(),
+        //second element
+        //third element
       ],
     );
   }
