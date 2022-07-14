@@ -10,10 +10,8 @@ class PlanetScreen extends StatefulWidget {
 class _PlanetScreenState extends State<PlanetScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text('Planet Screen'),
-      ),
+    return Scaffold(
+      
     );
   }
 }
