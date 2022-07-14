@@ -25,7 +25,7 @@ class SettingBtn extends StatelessWidget {
                   ),
                 ],
                 borderRadius: BorderRadius.circular(20),
-                color: Color.fromARGB(255, 222, 222, 222),
+                color: Color.fromARGB(255, 255, 255, 255),
               ),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -60,7 +60,7 @@ class SettingBtn extends StatelessWidget {
                     ),
                   ],
                   borderRadius: BorderRadius.circular(20),
-                  color: Color.fromARGB(255, 222, 222, 222),
+                  color: Color.fromARGB(255, 255, 255, 255),
                 ),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -94,7 +94,7 @@ class SettingBtn extends StatelessWidget {
                   ),
                 ],
                 borderRadius: BorderRadius.circular(20),
-                color: Color.fromARGB(255, 222, 222, 222),
+                color: Color.fromARGB(255, 255, 255, 255),
               ),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -129,7 +129,7 @@ class SettingBtn extends StatelessWidget {
                   ),
                 ],
                 borderRadius: BorderRadius.circular(20),
-                color: Color.fromARGB(255, 222, 222, 222),
+                color: Color.fromARGB(255, 255, 255, 255),
               ),
               child: IconButton(
                 onPressed: (){} ,
@@ -149,7 +149,7 @@ class SettingBtn extends StatelessWidget {
                   ),
                 ],
                 borderRadius: BorderRadius.circular(20),
-                color: Color.fromARGB(255, 222, 222, 222),
+                color: Color.fromARGB(255, 255, 255, 255),
               ),
               child: IconButton(
                 onPressed: (){} ,
@@ -169,7 +169,7 @@ class SettingBtn extends StatelessWidget {
                   ),
                 ],
                 borderRadius: BorderRadius.circular(20),
-                color: Color.fromARGB(255, 222, 222, 222),
+                color: Color.fromARGB(255, 255, 255, 255),
               ),
               child: IconButton(
                 onPressed: (){} ,
